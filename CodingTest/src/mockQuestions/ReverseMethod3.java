@@ -10,10 +10,10 @@ public class ReverseMethod3 {
 		System.out.println("Enter a string:  ");
 		String st= sc.nextLine();
 		
-		String s1= "";
+		String s1= "";//empty string which will be the new string
 		String[] arr = st.split(" ");
 		
-		for (int i=0;i<arr.length;i++)
+		for (int i=0;i<arr.length;i++)//iterating over each words
 			
 		{
 			
