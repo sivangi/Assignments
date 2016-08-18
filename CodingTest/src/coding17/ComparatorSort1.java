@@ -23,8 +23,8 @@ public class ComparatorSort1 implements Comparator<String>{
 		public static void main (String[]args){
 		
 		String[] fruits = { "Banana","Grapes","Apple","Kiwi","BlueBerries","PineApple","Plum","WaterMelon" };
-			    System.out.println("Fruits: " + Arrays.toString(fruits));//before sorting by length
+			    System.out.println("Fruits: " + Arrays.toString(fruits));
 	    Arrays.sort(fruits, new ComparatorSort1());
-			    System.out.println("Array woorden after sorting by length: " + Arrays.toString(fruits));
+			    System.out.println("Array fruits after sorting by length: " + Arrays.toString(fruits));
 			    }
 			}
